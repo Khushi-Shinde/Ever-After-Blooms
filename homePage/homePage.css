@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.8rem;
+  background-color: #ffe2ee;
+}
+
+.header-container {
+  height: 95vh;
+  background-image: linear-gradient(to right bottom, #e1007f6d, #ff4f7860),
+    url(kerala.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
