@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.8rem;
+  padding: 2rem;
+}
+
+.header-container {
+  height: 90vh;
+  background-image: linear-gradient(to right bottom, #e1007f6d, #ff4f7860),
+    url(sunrise.jpg);
+  background-size: cover;
+  background-position: bottom;
+  clip-path: polygon(0 0, 100% 0, 100% 88%, 0 100%);
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 4rem;
+  color: white;
+}
+
+.navigation__home,
+.navigation__about-us,
+.navigation__support,
+.navigation__gallery,
+.navigation__travel-quiz,
+.navigation__menu {
+  cursor: pointer;
+}
+
+.navigation__home:hover,
+.navigation__about-us:hover,
+.navigation__support:hover,
+.navigation__gallery:hover,
+.navigation__travel-quiz:hover,
+.navigation__menu:hover {
+  transform: scale(1.1);
+  text-decoration: underline;
+}
+
+.navigation__menu {
+  background-color: transparent;
+  border: none;
+}
+
+.navigation__menu-icon {
+  font-size: 50px !important;
+  font-weight: 100 !important;
+  color: #ffffff;
+}
+
+.title-container {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.title-container_title {
+  font-size: 5rem;
+  padding-bottom: 2rem;
+}
+
+.title-container_sub-title {
+  font-size: 2.4rem;
+  padding-bottom: 2rem;
+}
+
+.description-text {
+  height: 15rem;
+  width: 100%;
+  margin: 0 2rem;
+  font-size: 3.4rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 4.6rem;
+  padding: 24rem 10rem 14rem 10rem;
+  color: #8b014f;
+}

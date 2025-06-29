@@ -11,13 +11,202 @@ html {
 body {
   font-size: 1.6rem;
   line-height: 1.8rem;
-  background-color: #ffe2ee;
+  padding: 2rem;
 }
 
 .header-container {
-  height: 95vh;
+  height: 90vh;
   background-image: linear-gradient(to right bottom, #e1007f6d, #ff4f7860),
     url(kerala.jpg);
   background-size: cover;
   background-position: bottom;
+  clip-path: polygon(0 0, 100% 0, 100% 88%, 0 100%);
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 4rem;
+  color: white;
+}
+
+.navigation__home,
+.navigation__about-us,
+.navigation__support,
+.navigation__gallery,
+.navigation__travel-quiz,
+.navigation__menu {
+  cursor: pointer;
+}
+
+.navigation__home:hover,
+.navigation__about-us:hover,
+.navigation__support:hover,
+.navigation__gallery:hover,
+.navigation__travel-quiz:hover,
+.navigation__menu:hover {
+  transform: scale(1.1);
+  text-decoration: underline;
+}
+
+.navigation__menu {
+  background-color: transparent;
+  border: none;
+}
+
+.navigation__menu-icon {
+  font-size: 50px !important;
+  font-weight: 100 !important;
+  color: #ffffff;
+}
+
+.title-container {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.title-container_title {
+  font-size: 5rem;
+  padding-bottom: 2rem;
+}
+
+.title-container_sub-title {
+  font-size: 2.4rem;
+  padding-bottom: 2rem;
+}
+
+.description-text {
+  height: 15rem;
+  width: 100%;
+  margin: 0 2rem;
+  font-size: 3.4rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 4.6rem;
+  padding: 24rem 10rem 14rem 10rem;
+  color: #8b014f;
+}
+
+.country-cards {
+  height: 96rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.countries {
+  height: 80rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.destinations-text {
+  font-size: 4rem;
+  padding-top: 10rem;
+}
+
+.country-boxes {
+  height: 64rem;
+  width: 50rem;
+  border: 0.1px solid #d8007a9f;
+  border-width: 0.4rem;
+  border-radius: 3rem;
+  overflow: hidden;
+}
+
+.country-boxes:hover {
+  transform: scale(1.025);
+  box-shadow: 0 0 20px #d8007a62;
+}
+
+.country-image-container {
+  height: 40%;
+}
+
+.country-image-India {
+  background-image: linear-gradient(to right bottom, #e1007f6d, #ff4f7860),
+    url(Taj_Mahal.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.country-image-Japan {
+  background-image: linear-gradient(to right bottom, #e1007f6d, #ff4f7860),
+    url(cherry_blossoms.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.description-container {
+  height: 60%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.description-container-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.description-container-text-title {
+  font-size: 3.6rem;
+}
+
+.description-container-text-content {
+  text-align: center;
+  padding: 0 3.6rem;
+  font-size: 2.2rem;
+  line-height: 2.4rem;
+  padding-top: 2rem;
+}
+
+.learn-more {
+  padding: 1rem 2.4rem;
+  border: 0.2rem solid #e1007f6d;
+  border-radius: 1.6rem;
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.2rem;
+  font-size: 2rem;
+}
+
+.learn-more:hover {
+  transform: scale(1.07);
+  cursor: pointer;
+}
+
+.contact-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 4rem;
+  font-size: 2.6rem;
+}
+
+.contact-text-customer-support {
+  padding-left: 0.8rem;
+  color: #d8007a;
+  text-decoration: underline;
+}
+
+.contact-text-customer-support:hover {
+  transform: scale(1.02);
+  cursor: pointer;
 }
