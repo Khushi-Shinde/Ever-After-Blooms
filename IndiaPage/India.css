@@ -17,9 +17,9 @@ body {
 .header-container {
   height: 90vh;
   background-image: linear-gradient(to right bottom, #e1007f6d, #ff4f7860),
-    url(kerala.jpg);
+    url(Taj_Mahal.jpg);
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   clip-path: polygon(0 0, 100% 0, 100% 88%, 0 100%);
 }
 
@@ -104,7 +104,7 @@ body {
   align-items: center;
 }
 
-.countries {
+.tours {
   height: 80rem;
   width: 100%;
   display: flex;
@@ -112,39 +112,46 @@ body {
   align-items: center;
 }
 
-.destinations-text {
+.tours-text {
   font-size: 4rem;
   padding-top: 10rem;
 }
 
-.country-boxes {
+.tours-boxes {
   height: 64rem;
-  width: 50rem;
+  width: 40rem;
   border: 0.1px solid #d8007a9f;
   border-width: 0.4rem;
   border-radius: 3rem;
   overflow: hidden;
 }
 
-.country-boxes:hover {
+.tours-boxes:hover {
   transform: scale(1.025);
   box-shadow: 0 0 20px #d8007a62;
 }
 
-.country-image-container {
+.tours-image-container {
   height: 40%;
 }
 
-.country-image-India {
+.tours-image-nature {
+  background-image: linear-gradient(to right bottom, #e1007f6d, #ff4f7860),
+    url(backwaters.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.tours-image-landmarks {
   background-image: linear-gradient(to right bottom, #e1007f6d, #ff4f7860),
     url(Taj_Mahal.jpg);
   background-size: cover;
   background-position: center;
 }
 
-.country-image-Japan {
+.tours-image-cities {
   background-image: linear-gradient(to right bottom, #e1007f6d, #ff4f7860),
-    url(cherry_blossoms.jpg);
+    url(city.jpg);
   background-size: cover;
   background-position: center;
 }

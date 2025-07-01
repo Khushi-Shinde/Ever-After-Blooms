@@ -31,6 +31,7 @@ body {
   color: white;
 }
 
+.navigation__explore-destinations,
 .navigation__home,
 .navigation__about-us,
 .navigation__support,
@@ -40,6 +41,7 @@ body {
   cursor: pointer;
 }
 
+.navigation__explore-destinations:hover,
 .navigation__home:hover,
 .navigation__about-us:hover,
 .navigation__support:hover,
