@@ -8,6 +8,11 @@ html {
   font-size: 62.5%;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 body {
   font-size: 1.6rem;
   line-height: 1.8rem;
@@ -50,6 +55,11 @@ body {
 .navigation__menu:hover {
   transform: scale(1.1);
   text-decoration: underline;
+}
+
+.navigation__home {
+  border: 0.1rem solid white;
+  padding: 1rem;
 }
 
 .navigation__menu {

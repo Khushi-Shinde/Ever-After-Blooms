@@ -22,7 +22,7 @@ body {
 .header-container {
   height: 90vh;
   background-image: linear-gradient(to right bottom, #e1007f6d, #ff4f7860),
-    url(Taj_Mahal.jpg);
+    url(heritage-5430081_1920.jpg);
   background-size: cover;
   background-position: center;
   clip-path: polygon(0 0, 100% 0, 100% 88%, 0 100%);
@@ -106,7 +106,7 @@ body {
   color: #8b014f;
 }
 
-.country-cards {
+.tours-cards {
   height: 96rem;
   width: 100%;
   display: flex;
@@ -145,23 +145,23 @@ body {
   height: 40%;
 }
 
-.tours-image-nature {
+.tours-image-sakura {
   background-image: linear-gradient(to right bottom, #e1007f6d, #ff4f7860),
-    url(backwaters.jpg);
+    url(heritage-5430081_1920.jpg);
   background-size: cover;
   background-position: center;
 }
 
-.tours-image-landmarks {
+.tours-image-culture {
   background-image: linear-gradient(to right bottom, #e1007f6d, #ff4f7860),
-    url(Taj_Mahal.jpg);
+    url(culture.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .tours-image-cities {
   background-image: linear-gradient(to right bottom, #e1007f6d, #ff4f7860),
-    url(city.jpg);
+    url(city-6220689_1920.jpg);
   background-size: cover;
   background-position: center;
 }
